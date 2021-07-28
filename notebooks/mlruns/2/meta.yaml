@@ -1,0 +1,4 @@
+artifact_location: file:///D:/same/Documents/10Acadamy/Week3/RosmannSales/notebooks/mlruns/2
+experiment_id: '2'
+lifecycle_stage: active
+name: RandomForestRegressorModel_Experiment

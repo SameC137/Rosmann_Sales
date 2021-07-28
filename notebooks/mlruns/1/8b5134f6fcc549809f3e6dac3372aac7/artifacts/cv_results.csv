@@ -1,0 +1,5 @@
+mean_fit_time,std_fit_time,mean_score_time,std_score_time,param_fit_intercept,param_normalize,params,split0_test_score,split1_test_score,split2_test_score,split3_test_score,split4_test_score,mean_test_score,std_test_score,rank_test_score
+16.1244140625,5.998604116289686,0.5225343227386474,0.19084461031940828,True,True,"{'fit_intercept': True, 'normalize': True}",,,,,,,,1
+4.205471611022949,0.6789236018447509,0.10479545593261719,0.09348301179374774,True,False,"{'fit_intercept': True, 'normalize': False}",,,,,,,,2
+2.850237989425659,0.13493843230846225,0.004847574234008789,0.0018706369509357559,False,True,"{'fit_intercept': False, 'normalize': True}",,,,,,,,3
+2.825635004043579,0.05977629479634555,0.004222965240478516,0.001825679801595819,False,False,"{'fit_intercept': False, 'normalize': False}",,,,,,,,4
