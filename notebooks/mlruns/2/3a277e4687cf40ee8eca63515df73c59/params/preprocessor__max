@@ -1,0 +1,3 @@
+Pipeline(steps=[('imputer',
+                 <__main__.CustomMaxImputer object at 0x0000026326F39B80>),
+                ('scaler', StandardScaler())])

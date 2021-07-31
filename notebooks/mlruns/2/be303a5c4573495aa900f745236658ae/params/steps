@@ -1,0 +1,4 @@
+[('preprocessor', ColumnTransformer(transformers=[('max',
+                                 Pipeline(steps=[('imputer',
+                                                  CustomMaxImputer()),
+                                                 ('scaler...

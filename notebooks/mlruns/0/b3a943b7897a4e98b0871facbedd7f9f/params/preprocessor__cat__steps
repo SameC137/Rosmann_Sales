@@ -1,0 +1,1 @@
+[('imputer', SimpleImputer(strategy='most_frequent')), ('encoder', OneHotEncoder()), ('to_dense', <__main__.DenseTransformer object at 0x0000028D3E5438B0>), ('scaler', StandardScaler())]

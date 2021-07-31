@@ -1,0 +1,1 @@
+{'classifier__bootstrap': [True], 'classifier__max_depth': [80, 90, 100, 110], 'classifier__max_features': [2, 3], 'classifier__min_samples_leaf': [3, 4, 5], 'classifier__min_samples_split': [8, 10, 12], 'classifier__n_estimators': [20, 35, 50, 100]}

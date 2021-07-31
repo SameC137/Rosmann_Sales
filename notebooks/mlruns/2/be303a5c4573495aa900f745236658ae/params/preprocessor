@@ -1,0 +1,4 @@
+ColumnTransformer(transformers=[('max',
+                                 Pipeline(steps=[('imputer',
+                                                  CustomMaxImputer()),
+                                                 ('scaler', StandardScaler(...

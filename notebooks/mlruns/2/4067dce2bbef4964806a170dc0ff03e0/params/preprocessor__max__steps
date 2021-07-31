@@ -1,0 +1,1 @@
+[('imputer', CustomMaxImputer(strategy='max')), ('scaler', StandardScaler())]
