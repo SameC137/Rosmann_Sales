@@ -20,7 +20,7 @@ except:
 
 
 y=data["Sales"]
-x=data.drop(["Sales","Customers","Date","Store"],inplace=False)
+x=data.drop(["Sales","Customers","Date","Store"],axis=1,inplace=False)
 prediction = model.predict(x)
 error=mean_squared_error(y,prediction)
 
