@@ -3,7 +3,7 @@ import sklearn
 
 import sys, os
 
-from .scripts.CustomMaxImputer import CustomMaxImputer
+from scripts.CustomMaxImputer import CustomMaxImputer
 import pandas as pd
 from sklearn.metrics import mean_squared_error
 
