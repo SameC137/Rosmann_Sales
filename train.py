@@ -19,9 +19,10 @@ except:
     print("Csv File Could not be read")
 
 
+print(data.columns)
+
 y=data["Sales"]
-x=data.drop(["Sales","Customers","Date","Store","Unnamed"],axis=1,inplace=False)
-print(x.columns)
+x=data.drop(["Sales","Customers","Date","Store","Unnamed: 0"], axis=1,inplace=False)
 prediction = model.predict(x)
 error=mean_squared_error(y,prediction)
 
