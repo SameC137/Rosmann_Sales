@@ -8,7 +8,7 @@ import pandas as pd
 from sklearn.metrics import mean_squared_error
 
 try:
-    file = open("./models/model.pkl",'rb')
+    file = open("./models/model2.pkl",'rb')
     model = pickle.load(file)
 except:
     print("Error Loading Model")
