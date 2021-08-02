@@ -20,10 +20,10 @@ except:
 
 
 y=data["Sales"]
-x=data.drop(["Sales","Customers","Date","Store"],axis=1,inplace=False)
+x=data.drop(["Sales","Customers","Date","Store","Unnamed"],axis=1,inplace=False)
 print(x.columns)
-# prediction = model.predict(x)
-# error=mean_squared_error(y,prediction)
+prediction = model.predict(x)
+error=mean_squared_error(y,prediction)
 
-# with open("metrics.txt", 'w') as outfile:
-        # outfile.write("MeanSquaredError: " + str(error) + "\n")
+with open("metrics.txt", 'w') as outfile:
+        outfile.write("MeanSquaredError: " + str(error) + "\n")
